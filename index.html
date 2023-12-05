@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Contatos</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>AGENDA PESSOAL</h1>
+        </header>
+    
+        <form>
+            <label for="input_nome">Nome</label>
+            
+            <input id="input_nome" type="text" placeholder="Informe o nome" required>
+    
+            <label for="input_telefone" type="tel">Número</label>
+        
+            <input id="input_telefone" type="tel" placeholder="Informe o telefone" required>
+
+            <label for="dropdown_referencias">Referência</label>
+        
+            <select name="referencias" id="dropdown_referencias"> 
+                <option value="Familia">Familia</option> 
+                <option value="Trabalho">Trabalho</option> 
+                <option value="Amigo">Amigo</option>  
+            </select>
+            
+            <button class="botao" type="submit">Cadastrar</button>
+            
+        </form>
+    
+        <table>
+            <thead>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>Referência</th>
+            </thead>
+    
+            <tbody>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td id = 'total_contratos'> - - -</td>
+                </tr>
+            </tfoot>
+    
+        </table>
+    </div>
+</body>
+<script src="./main.js"> </script>
+</html>

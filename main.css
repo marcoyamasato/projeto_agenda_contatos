@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 80px auto;
+    width: 100%;
+    max-width: 900px;
+    background-color: rgb(161, 146, 175);
+    padding: 15px;
+}
+
+body{
+    background-color: rgb(212, 191, 231);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+header h1{
+    margin: 0 auto;
+}
+
+form {
+    margin-top: 40px;
+}
+
+form input,
+#dropdown_referencias{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    border-width: 0.1px;
+    border-color: black;
+}
+
+form label{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+form button{
+    display: block;
+    margin: 15px auto;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: rgb(142, 221, 142);
+    cursor: pointer;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+
+
+table{
+    margin-top: 40px;
+    width: 100%;
+    table-layout: fixed;
+}
+
+
+table th{
+    border-bottom: 2px solid gray;
+    font-size: 30px;
+    text-align: center;
+}
+
+table td{
+    text-align: center;
+    font-weight: 800;
+    color: black;
+    font-size: 20px;
+}
+
+table img{
+    height: 40px;
+}
